@@ -28,7 +28,7 @@ const QuestionCard = ({
       if(timer> 0){
         setTimer(timer - 1);
       }
-      if(timer == 0 < 10 && count < 10){
+      if(timer == 0 && count < 10){
         setCount(count + 1)
         setTimer(30)
       }else if(count>=10){
